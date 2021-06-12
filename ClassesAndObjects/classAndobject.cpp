@@ -6,8 +6,16 @@ using namespace std;
 class student 
 {
     public :
-        int rollNumber;
+        // Attributes
+        int rollNumber; 
         char studentName[50];
+
+        // method
+        void displayStudentInfo()
+        {
+            cout <<  "The details of student name is :" << studentName ;
+            cout <<  " Roll number:" << rollNumber << endl;
+        }
 };
 
 int main()
@@ -16,15 +24,14 @@ int main()
     student s1;
     student s2;
     
+    // Updates Attributes
     s1.rollNumber = 4;
     strcpy(s1.studentName, "Harrin Riza");
 
     s2.rollNumber = 5;
     strcpy(s1.studentName, "Lal Bosco");
 
-    cout <<  "The details of 1st student name is :" << s1.studentName ;
-    cout <<  " Roll number:" << s1.rollNumber << endl;
-
-    cout << "The details of 2nd student name is :" << s2.studentName;
-    cout <<  " Roll number:" << s1.rollNumber << endl;
+    // Call the method
+    s1.displayStudentInfo();
+    s2.displayStudentInfo();
 }

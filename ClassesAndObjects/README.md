@@ -11,26 +11,15 @@ Syntax :
 			attributes;
 			methods;
 		};
-Example :
-		class student
-		{
-			int rollnumber;
-			studentname();
-		}
 ```
 
 # OBJECTS :
-		An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated. A class provides the blueprints for objects, so basically an object is created from a class.
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated. A class provides the blueprints for objects, so basically an object is created from a class.
 
 ```bash
 Declaration :
 		classname object1;
 		classname object2;
-
-Example :
-		student s1;
-		student s2;
-	student is the class name, s1 and s2 are the objects.
 ```
 
 `classAndobject.cpp` Example program for class and object
